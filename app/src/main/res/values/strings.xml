@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerAlertDatePicker</string>
+    <string name="btn1">Выход</string>
+    <string name="btn2">"Перейти к настройкам даты "</string>
+    <string name="set_date">Установить \nдату</string>
+    <string name="set_time">Установить \nвремя</string>
+</resources>

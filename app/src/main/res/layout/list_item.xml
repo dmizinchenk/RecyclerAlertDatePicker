@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/brand"
+        android:text="Марка"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/photo"
+        app:layout_constraintTop_toTopOf="@+id/photo"
+        android:layout_marginLeft="5sp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Модель"
+        app:layout_constraintTop_toBottomOf="@+id/brand"
+        app:layout_constraintLeft_toLeftOf="@id/brand"
+        app:layout_constraintRight_toRightOf="@id/brand"
+        android:textSize="12sp"
+        android:textColor="#777"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
